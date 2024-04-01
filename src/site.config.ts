@@ -30,15 +30,15 @@ export const siteConfig: SiteConfig = {
 export const menuLinks: Array<{ title: string; path: string }> = [
 	{
 		title: "Home",
-		path: "/astro",
+		path: "/astro-portfolio",
 	},
 	{
 		title: "About",
-		path: "/astro/about/",
+		path: "/astro-portfolio/about/",
 	},
 	// {
 	// 	title: "Blog",
-	// 	path: "/posts/",
+	// 	path: "astro-portfolio/posts/",
 	// },
 ];
 
