@@ -14,7 +14,7 @@ import { expressiveCodeOptions } from "./src/site.config";
 export default defineConfig({
 	// ! Please remember to replace the following site property with your own domain
 	site: "https://gndps.github.io",
-	// base: '/',
+	base: '/astro',
 	markdown: {
 		remarkPlugins: [remarkUnwrapImages, remarkReadingTime],
 		rehypePlugins: [
